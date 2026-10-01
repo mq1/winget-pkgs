@@ -1,0 +1,24 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: mq1.TinyWiiBackupManager
+PackageVersion: 6.1.2
+InstallerLocale: en-US
+InstallerType: portable
+UpgradeBehavior: uninstallPrevious
+ProductCode: TinyWiiBackupManager
+ReleaseDate: 2026-10-01
+AppsAndFeaturesEntries:
+- ProductCode: TinyWiiBackupManager
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/mq1/TinyWiiBackupManager/releases/download/v6.1.2/TinyWiiBackupManager-v6.1.2-windows-x86.exe
+  InstallerSha256: 47C5DE2D3266099A9682B837F40FA2DF57A6AE43EF9D889CD48600FDBD5E44B7
+- Architecture: x64
+  InstallerUrl: https://github.com/mq1/TinyWiiBackupManager/releases/download/v6.1.2/TinyWiiBackupManager-v6.1.2-windows-x64.exe
+  InstallerSha256: C4DE0B31A3E5285C10FF11F5AE18A0670EDFF5043870056E9A660B5D10DF34E7
+- Architecture: arm64
+  InstallerUrl: https://github.com/mq1/TinyWiiBackupManager/releases/download/v6.1.2/TinyWiiBackupManager-v6.1.2-windows-arm64.exe
+  InstallerSha256: 488998F2984B253E04AC2212EFB2D110EB836027C79EEE63670A30B2B4502E14
+ManifestType: installer
+ManifestVersion: 1.12.0
